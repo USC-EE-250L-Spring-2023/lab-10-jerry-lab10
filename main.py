@@ -48,9 +48,9 @@ def process2(data: List[int]) -> List[int]:
 
 def final_process(data1: List[int], data2: List[int]) -> List[int]:
     """TODO: Document this function. What does it do? What are the inputs and outputs?
-        Summary: This function finds the average difference 
-        Inputs: TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO 
-        Outputs:
+        Summary: This function subtracts the elements in data2 from data1 entrywise.  Then it finds the average value of this new list.
+        Inputs: Lists of ints, data1 and data2
+        Outputs: Average difference between the elements in data1 and data2
     """
     
     return np.mean([x - y for x, y in zip(data1, data2)])
